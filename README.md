@@ -19,11 +19,11 @@ This game is for two player where grid's rows are fixed 5(can be change with lit
 	7. Hero3: This class, inherit Character and use all the super class methods. This class passes steps and commands used by Character Hero3 where steps are 2 at a time but only in diagonal direction(FL, FR, BL, BR, RF, RB, LF, and LB) and override moveValidator method of Character class.
 
 ## Commands for Pawns, Hero1, Hero2 and Hero3
-Pawn: In one move, it moves 1 block straight in any direction(L, R, F, B).
-Hero1: In one move, it moves 2 blocks straight in any direction(L, R, F, B), and kills anything in its path.
-Hero2: In one move, it moves 2 blocks diagonally in any direction(FL, FR, BL, BR), and kills anything in its path.
-Hero3: In one move, it moves 2 steps straight and one to the side, and kills only where it finally lands. Moves are FL, FR, BL, BR, RF, RB, LF, and LB.
-example: H3:FR means it moves 2 steps front and one to the right, H3:RF means it moves 2 steps right and one to the front.
+ 1. Pawn: In one move, it moves 1 block straight in any direction(L, R, F, B).
+ 2. Hero1: In one move, it moves 2 blocks straight in any direction(L, R, F, B), and kills anything in its path.
+ 3. Hero2: In one move, it moves 2 blocks diagonally in any direction(FL, FR, BL, BR), and kills anything in its path.
+ 4. 4Hero3: In one move, it moves 2 steps straight and one to the side, and kills only where it finally lands. Moves are FL, FR, BL, BR, RF, RB, LF, and LB.
+ example: H3:FR means it moves 2 steps front and one to the right, H3:RF means it moves 2 steps right and one to the front.
 
 ## Player Input:
 Player's input are handled by commandlinereader.js file for different scenarios.
